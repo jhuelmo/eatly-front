@@ -7,11 +7,11 @@ interface DashboardLayoutProps {
 
 function DashboardLayout({ children }: DashboardLayoutProps) {
     return (
-        <div className="bg-background text-text">
-            <div>
+        <div className="flex h-screen">
+            <div className="w-72 py-5 px-7">
                 <Sidebar></Sidebar>
             </div>
-            <div>{children}</div>
+            <div className="p-5 flex-grow">{children}</div>
         </div>
     );
 }

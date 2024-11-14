@@ -10,6 +10,10 @@ export default {
     theme: {
         extend: {
             colors: {
+                primary: {
+                    DEFAULT: "hsl(var(--primary))",
+                    contrast: "hsl(var(--primary-contrast))",
+                },
                 background: "hsl(var(--background))",
                 text: {
                     DEFAULT: "hsl(var(--text))",

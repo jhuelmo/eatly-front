@@ -4,12 +4,16 @@
 
 @layer base {
     :root {
-        --background: #ffffff;
-        --foreground: #171717;
+        --background: 261 37% 97%;
+
+        /*TextColors*/
+        --text: 216, 9%, 34%;
     }
     .dark {
-        --background: #0a0a0a;
-        --foreground: #ededed;
+        --background: 261 37% 97%;
+
+        /*TextColors*/
+        --text: 216, 9%, 34%;
     }
 }
 
